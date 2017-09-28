@@ -19,14 +19,14 @@ namespace iCamp_ITE233_new
 
         private void new_btn_Click(object sender, EventArgs e)
         {
-            Register_form f1 = new Register_form();
-            f1.ShowDialog();
+            New_session_form newName = new New_session_form();
+            newName.ShowDialog();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            New_session_form newName = new New_session_form();
-            newName.ShowDialog();
+            Register_form f1 = new Register_form();
+            f1.ShowDialog();
         }
     }
 }

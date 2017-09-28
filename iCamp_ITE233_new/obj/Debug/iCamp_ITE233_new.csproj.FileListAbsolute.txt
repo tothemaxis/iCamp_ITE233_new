@@ -12,3 +12,17 @@ C:\Users\MAX\Documents\Visual Studio 2017\Projects\iCamp_ITE233_new\iCamp_ITE233
 C:\Users\MAX\Documents\Visual Studio 2017\Projects\iCamp_ITE233_new\iCamp_ITE233_new\obj\Debug\iCamp_ITE233_new.csproj.CoreCompileInputs.cache
 C:\Users\MAX\Documents\Visual Studio 2017\Projects\iCamp_ITE233_new\iCamp_ITE233_new\obj\Debug\iCamp_ITE233_new.exe
 C:\Users\MAX\Documents\Visual Studio 2017\Projects\iCamp_ITE233_new\iCamp_ITE233_new\obj\Debug\iCamp_ITE233_new.pdb
+C:\Users\MAX\Documents\Git\iCamp_ITE233_new\iCamp_ITE233_new\bin\Debug\iCamp_ITE233_new.exe.config
+C:\Users\MAX\Documents\Git\iCamp_ITE233_new\iCamp_ITE233_new\bin\Debug\iCamp_ITE233_new.exe
+C:\Users\MAX\Documents\Git\iCamp_ITE233_new\iCamp_ITE233_new\bin\Debug\iCamp_ITE233_new.pdb
+C:\Users\MAX\Documents\Git\iCamp_ITE233_new\iCamp_ITE233_new\obj\Debug\iCamp_ITE233_new.csprojResolveAssemblyReference.cache
+C:\Users\MAX\Documents\Git\iCamp_ITE233_new\iCamp_ITE233_new\obj\Debug\iCamp_ITE233_new.Home_form.resources
+C:\Users\MAX\Documents\Git\iCamp_ITE233_new\iCamp_ITE233_new\obj\Debug\iCamp_ITE233_new.New_session_form.resources
+C:\Users\MAX\Documents\Git\iCamp_ITE233_new\iCamp_ITE233_new\obj\Debug\iCamp_ITE233_new.Properties.Resources.resources
+C:\Users\MAX\Documents\Git\iCamp_ITE233_new\iCamp_ITE233_new\obj\Debug\iCamp_ITE233_new.Register_activity_form.resources
+C:\Users\MAX\Documents\Git\iCamp_ITE233_new\iCamp_ITE233_new\obj\Debug\iCamp_ITE233_new.Register_form.resources
+C:\Users\MAX\Documents\Git\iCamp_ITE233_new\iCamp_ITE233_new\obj\Debug\iCamp_ITE233_new.Select_activity_form.resources
+C:\Users\MAX\Documents\Git\iCamp_ITE233_new\iCamp_ITE233_new\obj\Debug\iCamp_ITE233_new.csproj.GenerateResource.Cache
+C:\Users\MAX\Documents\Git\iCamp_ITE233_new\iCamp_ITE233_new\obj\Debug\iCamp_ITE233_new.csproj.CoreCompileInputs.cache
+C:\Users\MAX\Documents\Git\iCamp_ITE233_new\iCamp_ITE233_new\obj\Debug\iCamp_ITE233_new.exe
+C:\Users\MAX\Documents\Git\iCamp_ITE233_new\iCamp_ITE233_new\obj\Debug\iCamp_ITE233_new.pdb
