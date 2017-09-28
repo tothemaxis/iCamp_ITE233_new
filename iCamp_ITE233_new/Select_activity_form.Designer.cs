@@ -182,7 +182,7 @@
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.dateTimePicker1);
             this.Name = "Select_activity_form";
-            this.Text = "Select_activity_form";
+            this.Text = "Select Activities";
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
