@@ -57,7 +57,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.Name = "New_session_form";
-            this.Text = "Form1";
+            this.Text = "New Session Name";
             this.ResumeLayout(false);
             this.PerformLayout();
 

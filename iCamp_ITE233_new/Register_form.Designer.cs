@@ -414,7 +414,7 @@
             this.Controls.Add(this.save_btn);
             this.Controls.Add(this.groupBox1);
             this.Name = "Register_form";
-            this.Text = "Register_form";
+            this.Text = "Register";
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);

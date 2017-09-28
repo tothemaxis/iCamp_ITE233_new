@@ -252,7 +252,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dateTimePicker1);
             this.Name = "Register_activity_form";
-            this.Text = "Register_activity_form";
+            this.Text = "Register Activities";
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
             this.groupBox5.ResumeLayout(false);

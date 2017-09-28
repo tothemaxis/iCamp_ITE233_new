@@ -178,7 +178,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.Name = "Home_form";
-            this.Text = "Form1";
+            this.Text = "Home Page";
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
