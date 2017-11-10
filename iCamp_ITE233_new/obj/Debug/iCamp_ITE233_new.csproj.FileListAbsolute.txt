@@ -26,3 +26,5 @@ C:\Users\MAX\Documents\Git\iCamp_ITE233_new\iCamp_ITE233_new\obj\Debug\iCamp_ITE
 C:\Users\MAX\Documents\Git\iCamp_ITE233_new\iCamp_ITE233_new\obj\Debug\iCamp_ITE233_new.csproj.CoreCompileInputs.cache
 C:\Users\MAX\Documents\Git\iCamp_ITE233_new\iCamp_ITE233_new\obj\Debug\iCamp_ITE233_new.exe
 C:\Users\MAX\Documents\Git\iCamp_ITE233_new\iCamp_ITE233_new\obj\Debug\iCamp_ITE233_new.pdb
+C:\Users\MAX\Documents\Git\iCamp_ITE233_new\iCamp_ITE233_new\bin\Debug\Database1.mdf
+C:\Users\MAX\Documents\Git\iCamp_ITE233_new\iCamp_ITE233_new\bin\Debug\Database1_log.ldf

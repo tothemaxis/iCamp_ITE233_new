@@ -34,13 +34,13 @@
             this.listBox3 = new System.Windows.Forms.ListBox();
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.saveNext_btn = new System.Windows.Forms.Button();
+            this.save_btn = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.bunk_combo = new System.Windows.Forms.ComboBox();
+            this.name_combo = new System.Windows.Forms.ComboBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -99,23 +99,25 @@
             this.listBox1.Size = new System.Drawing.Size(158, 147);
             this.listBox1.TabIndex = 2;
             // 
-            // button2
+            // saveNext_btn
             // 
-            this.button2.Location = new System.Drawing.Point(476, 328);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 18;
-            this.button2.Text = "Save &Next";
-            this.button2.UseVisualStyleBackColor = true;
+            this.saveNext_btn.Location = new System.Drawing.Point(476, 328);
+            this.saveNext_btn.Name = "saveNext_btn";
+            this.saveNext_btn.Size = new System.Drawing.Size(75, 23);
+            this.saveNext_btn.TabIndex = 18;
+            this.saveNext_btn.Text = "Save &Next";
+            this.saveNext_btn.UseVisualStyleBackColor = true;
+            this.saveNext_btn.Click += new System.EventHandler(this.saveNext_btn_Click);
             // 
-            // button1
+            // save_btn
             // 
-            this.button1.Location = new System.Drawing.Point(308, 328);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 17;
-            this.button1.Text = "Save";
-            this.button1.UseVisualStyleBackColor = true;
+            this.save_btn.Location = new System.Drawing.Point(308, 328);
+            this.save_btn.Name = "save_btn";
+            this.save_btn.Size = new System.Drawing.Size(75, 23);
+            this.save_btn.TabIndex = 17;
+            this.save_btn.Text = "Save";
+            this.save_btn.UseVisualStyleBackColor = true;
+            this.save_btn.Click += new System.EventHandler(this.button1_Click);
             // 
             // label3
             // 
@@ -138,34 +140,39 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(626, 48);
+            this.label1.Location = new System.Drawing.Point(631, 48);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(30, 13);
             this.label1.TabIndex = 14;
             this.label1.Text = "Date";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // comboBox3
+            // bunk_combo
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(107, 45);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(148, 21);
-            this.comboBox3.TabIndex = 13;
+            this.bunk_combo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.bunk_combo.FormattingEnabled = true;
+            this.bunk_combo.Location = new System.Drawing.Point(107, 45);
+            this.bunk_combo.Name = "bunk_combo";
+            this.bunk_combo.Size = new System.Drawing.Size(148, 21);
+            this.bunk_combo.TabIndex = 13;
+            this.bunk_combo.SelectedIndexChanged += new System.EventHandler(this.bunk_combo_SelectedIndexChanged);
             // 
-            // comboBox2
+            // name_combo
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(346, 45);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(148, 21);
-            this.comboBox2.TabIndex = 12;
+            this.name_combo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.name_combo.FormattingEnabled = true;
+            this.name_combo.Location = new System.Drawing.Point(346, 45);
+            this.name_combo.Name = "name_combo";
+            this.name_combo.Size = new System.Drawing.Size(148, 21);
+            this.name_combo.TabIndex = 12;
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(667, 42);
+            this.dateTimePicker1.Location = new System.Drawing.Point(667, 45);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(216, 20);
             this.dateTimePicker1.TabIndex = 11;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // Select_activity_form
             // 
@@ -173,13 +180,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(895, 393);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.saveNext_btn);
+            this.Controls.Add(this.save_btn);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.bunk_combo);
+            this.Controls.Add(this.name_combo);
             this.Controls.Add(this.dateTimePicker1);
             this.Name = "Select_activity_form";
             this.Text = "Select Activities";
@@ -197,13 +204,13 @@
         private System.Windows.Forms.ListBox listBox3;
         private System.Windows.Forms.ListBox listBox2;
         private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button saveNext_btn;
+        private System.Windows.Forms.Button save_btn;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox bunk_combo;
+        private System.Windows.Forms.ComboBox name_combo;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }

@@ -1,0 +1,36 @@
+drop schema if exists icamp;
+create schema if not exists icamp;
+use icamp;
+
+create table if not exists CAMP_SESSION(
+	SESSION_NAME	VARCHAR(20)	NOT NULL,
+    ID	INT	NOT NULL,
+    PRIMARY KEY(ID)
+);
+
+create table if not exists CAMPERS(
+	CID	INT	NOT NULL,
+	CNAME	VARCHAR(50)	NOT NULL,
+    PREF_NAME VARCHAR(20),
+    BUNK	VARCHAR(20)	NOT NULL,
+    AGE	INT	NOT NULL,
+    NATIONALITY	VARCHAR(20),
+    RESTRICTION VARCHAR(100),
+    START_DATE	DATE,
+    LEAVE_DATE	DATE,
+    MEDICATION	VARCHAR(100),
+    TRANSPORTATION	VARCHAR(50),
+    P1NAME	VARCHAR(50)	NOT NULL,
+    P1PHONE	INT	NOT NULL,
+    P1EMAIL VARCHAR(50),
+    P2NAME	VARCHAR(50)	NOT NULL,
+    P2PHONE	INT	NOT NULL,
+    P2EMAIL VARCHAR(50),
+    PRIMARY KEY(CID)
+);
+
+create table if not exists ACTIVITIES(
+	ANAME	VARCHAR(30)	NOT NULL,
+    ID int,
+    PRIMARY KEY(ID)
+);
